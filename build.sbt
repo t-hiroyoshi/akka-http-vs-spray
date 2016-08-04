@@ -5,7 +5,7 @@ lazy val commonSettings = Seq(
   scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8", "-Xlint")
 )
 
-val akkaV = "2.4.4"
+val akkaV = "2.4.9-RC1"
 val sprayV = "1.3.3"
 
 lazy val spraySettings = Seq(
